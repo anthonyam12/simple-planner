@@ -240,7 +240,7 @@ public class MainPanel extends JPanel implements ActionListener, ListSelectionLi
         @Override
         public Component getTableCellRendererComponent(JTable jTable, Object value, boolean isSelected, boolean hasFocus, int row, int col) {
             Component c = super.getTableCellRendererComponent(jTable, value, isSelected, hasFocus, row, col);
-            c.setBackground(new Color(1f, 1f, 1f));
+            c.setBackground(new Color(.7f, .7f, .7f));
 
             DateFormat df = new SimpleDateFormat("EEE MMM dd kk:mm:ss z yyyy", Locale.ENGLISH);
             Date event = new Date();
